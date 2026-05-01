@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <defs>
+    <path id="petal" d="M0,2 Q-3,5 -3,11.5 T0,16 T3,11.5 T3,5 Z" fill="none" stroke="#D8CAB9" stroke-width="1.2"/>
+    
+    <path id="tendril_upper" d="M0,0 Q5,5 10,0" fill="none" stroke="#D8CAB9" stroke-width="1.2"/>
+    
+    <path id="tendril_lower" d="M0,0 Q3,3 6,0" fill="none" stroke="#D8CAB9" stroke-width="1.2"/>
+  </defs>
+  
+  <g transform="translate(100, 25)">
+    <path d="M-100,0 Q-75,-10 -50,0 Q-25,10 0,0 Q25,-10 50,0 Q75,10 100,0" fill="none" stroke="#D8CAB9" stroke-width="1.2"/>
+    
+    <g id="flower">
+      <use href="#petal" transform="rotate(0)"/>
+      <use href="#petal" transform="rotate(60)"/>
+      <use href="#petal" transform="rotate(120)"/>
+      <use href="#petal" transform="rotate(180)"/>
+      <use href="#petal" transform="rotate(240)"/>
+      <use href="#petal" transform="rotate(300)"/>
+    </g>
+    
+    <use href="#tendril_upper" transform="translate(-70, -3) rotate(220)"/>
+    <use href="#tendril_lower" transform="translate(-30, 2) rotate(350)"/>
+    
+    <g transform="scale(-1, 1)">
+      <use href="#tendril_upper" transform="translate(-70, -3) rotate(220)"/>
+      <use href="#tendril_lower" transform="translate(-30, 2) rotate(350)"/>
+    </g>
+  </g>
+</svg>
