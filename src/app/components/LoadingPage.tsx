@@ -42,7 +42,7 @@ function LoadingPage({ children }: LoadingPageProps) {
         }}
         className={`text-sm italic py-1 px-4 mt-5 rounded-[50px] border border-[#835D2F] text-[#835D2F] cursor-pointer`}
       >
-        أفتح الدعوة
+        F & M
       </button>
     </div>
   );
