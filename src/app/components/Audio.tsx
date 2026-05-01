@@ -10,12 +10,6 @@ function Audio() {
 
   return (
     <>
-      <audio
-        src="/'٠١٩'سورة مريم.mp3"
-        className="block"
-        autoPlay
-        muted={isMuted}
-      ></audio>
       <div
         className="sound-control fixed bottom-7.5 right-7.5 text-lg z-2 text-[#835D2F] bg-[#e9e2db] w-8 h-8 flex justify-center items-center rounded-[50%] cursor-pointer"
         onClick={() => {
