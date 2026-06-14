@@ -13,7 +13,7 @@ import LoadingPage from "./components/LoadingPage";
 import { arefRuqaa } from "./layout";
 
 export default function Home() {
-  const weddingDate = new Date("2026-07-29T18:00:00");
+  const weddingDate = new Date("2026-07-29T19:00:00");
   return (
     <MainContainer>
       <main className="text-center relative bg-[#f9f6f1]">
