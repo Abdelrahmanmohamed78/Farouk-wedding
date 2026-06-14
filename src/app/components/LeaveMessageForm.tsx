@@ -30,7 +30,6 @@ function LeaveMessageForm() {
       method="POST"
       className="sm:w-125 mx-auto text-left"
       onSubmit={handleSubmit(submitData)}
-      data-aos="fade-up" data-aos-anchor-placement="top-center"
     >
       <div className="name-input flex flex-col mb-5">
         <label className="mb-1" htmlFor="name">

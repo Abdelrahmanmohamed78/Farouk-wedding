@@ -24,10 +24,30 @@ input {
 .animated-arrow {
   animation: animated-arrow 1s infinite ease-in-out alternate;
 }
+.first-slider > img {
+  animation: slider-first ease-in-out infinite 5s;
+}
+.second-slider > img {
+  animation: slider-second ease-in-out infinite 5s 5s;
+}
 @keyframes animated-arrow {
   from {
     transform: translateY(0);
   } to {
     transform: translateY(-10px);
+  }
+}
+@keyframes slider-first {
+  from {
+    transform: translateX(0);
+  } to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes slider-second {
+  from {
+    transform: translateX(100%);
+  } to {
+    transform: translateX(0%);
   }
 }
